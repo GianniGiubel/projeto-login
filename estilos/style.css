@@ -26,7 +26,7 @@ section#login {
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.649);
 
@@ -51,4 +51,51 @@ section#login > div#formulario > h1 {
 section#login > div#formulario > p {
     text-align: justify;
     margin-bottom: 5px;
+}
+form > div.campo {
+    background-color: #5f2c82;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    color: white;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: white;
+    color: #49a09d;
+    border: #49a09d solid;
+} 
+form > a.botao {
+    display: block;
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #49a09d;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: #49a09d solid;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+form > a.botao:hover {
+    background-color: #49a09d;
+    color: white;
+}
+form > a.botao > span {
+    font-size: 0.8em;
+}
+span.material-icons {
+    color: white;
+    padding: 5px;    
 }
