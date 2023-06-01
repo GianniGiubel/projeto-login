@@ -29,6 +29,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.649);
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
     display: block;
@@ -43,7 +46,7 @@ section#login > div#formulario {
 }
 section#login > div#formulario > h1 {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 section#login > div#formulario > p {
     text-align: justify;
